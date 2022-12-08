@@ -1,6 +1,5 @@
 import React from 'react'
-import styles from './someExampleComponent.module.scss'
-
+import styles from './test.module.scss'
 type SomeExampleComponentProps = {
 
 }
@@ -10,7 +9,7 @@ const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => {
     <div className={styles.container}>
     <h1>Header</h1>
     <p>My supercool component</p>
-    <p>test 1</p>
+    <p>test 2</p>
   </div>
   )
 }

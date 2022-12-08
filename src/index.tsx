@@ -8,7 +8,9 @@ import {
 } from "react-router-dom";
 import SomeExampleComponent from './components/example/someExampleComponent';
 import MyFirstComponent from './components/myFirstComponent';
+import Test from './components/test/test';
 import './index.module.scss';
+import Navbar from './components/navbar/navbar';
 
 
 const root = ReactDOM.createRoot(
@@ -17,10 +19,12 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
   <BrowserRouter>
+  <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
       <Route path='example' element={<SomeExampleComponent />} />
       <Route path='/first' element={<MyFirstComponent />} />
+      <Route path='/second' element={<Test />} />
     </Routes>
   </BrowserRouter>
 </React.StrictMode>
