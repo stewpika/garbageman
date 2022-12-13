@@ -1,3 +1,37 @@
 .container {
-    margin:0%
+    width: 100%;
+    height: 50px;
+    background: rgba(60, 139, 12, 0.89);
+    border-bottom: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color:rgb(240, 236, 19);
+    margin-left: 30px;
+}
+
+.logo a {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.links {
+    margin-right: 20px;
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+}
+
+.links a:hover {
+    text-decoration: none;
+    color: rgba(83, 82, 82, 0.709);
 }

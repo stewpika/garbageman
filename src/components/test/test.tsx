@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './test.module.scss'
-type SomeExampleComponentProps = {
+type TestProps = {
 
 }
 
-const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => {
+const Test: React.FC<TestProps> = () => {
   return (
     <div className={styles.container}>
     <h1>Header</h1>
@@ -14,4 +14,4 @@ const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => {
   )
 }
 
-export default SomeExampleComponent
+export default Test
