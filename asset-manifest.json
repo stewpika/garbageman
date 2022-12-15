@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.40f81ffd.css",
-    "main.js": "./static/js/main.56078472.js",
+    "main.css": "./static/css/main.8461e13a.css",
+    "main.js": "./static/js/main.1136e935.js",
     "static/media/yongyu.png": "./static/media/yongyu.519d270f80dbe5d4dfa8.png",
     "static/media/seaBackground.jpeg": "./static/media/seaBackground.8a5e2903d9d479429cae.jpeg",
     "index.html": "./index.html",
-    "main.40f81ffd.css.map": "./static/css/main.40f81ffd.css.map",
-    "main.56078472.js.map": "./static/js/main.56078472.js.map"
+    "main.8461e13a.css.map": "./static/css/main.8461e13a.css.map",
+    "main.1136e935.js.map": "./static/js/main.1136e935.js.map"
   },
   "entrypoints": [
-    "static/css/main.40f81ffd.css",
-    "static/js/main.56078472.js"
+    "static/css/main.8461e13a.css",
+    "static/js/main.1136e935.js"
   ]
 }
