@@ -6,11 +6,11 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import SomeExampleComponent from './components/example/someExampleComponent';
-import MyFirstComponent from './components/myFirstComponent';
-import Test from './components/test/test';
 import './index.module.scss';
 import Navbar from './components/navbar/navbar';
+
+import MyFirstComponent from './components/page2/myFirstComponent';
+import ContactInfo from './components/page3/contactInfo';
 
 
 const root = ReactDOM.createRoot(
@@ -22,9 +22,8 @@ root.render(
   <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path='example' element={<SomeExampleComponent />} />
-      <Route path='/first' element={<MyFirstComponent />} />
-      <Route path='/second' element={<Test />} />
+      <Route path='/project' element={<MyFirstComponent />} />
+      <Route path='/contact' element={<ContactInfo />} />
     </Routes>
   </BrowserRouter>
 </React.StrictMode>

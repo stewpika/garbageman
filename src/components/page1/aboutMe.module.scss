@@ -1,0 +1,39 @@
+.container{
+    padding: 0.32px;
+    height: 570px;
+    width:100%;
+    background-color: #fafafa;
+    display: flex;
+    gap:80px;
+    flex-direction:row;
+
+}
+
+.picture{
+    margin: 60px;
+    margin-left: 150px;
+    gap:80px;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    position: relative;
+    background-image: url('../../asses/yongyu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.introduction{
+    display: flex;
+    margin: 80px;
+    margin-top: 100px;
+    flex-direction: column;
+    padding: 0.32px;
+    background-color: #75B2BA;
+    gap: 32px;
+    height: 300px;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    
+}

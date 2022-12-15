@@ -10,13 +10,12 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-      YONGYU 
+      <Link to="/">ʕº̫͡ºʔ</Link> 
       </div>
       <div className={styles.links}>
       <Link to="/">HOME</Link> 
-      <Link to="first">PROJECT</Link>
-      <Link to="example">TEST</Link>
-      <Link to="test">CONTACT</Link>
+      <Link to="/gallary">Gallary</Link>
+      <Link to="/contact">CONTACT</Link>
       </div>
     </div>
   )

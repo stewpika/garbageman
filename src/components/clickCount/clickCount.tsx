@@ -17,8 +17,9 @@ const ClickCount: React.FC<ClickCountProps> = () => {
 
   return (
     <div className={styles.container}>
-      <p>you click the button {count} times</p>
+      <p>Thumb up if you like my portfolio</p>
       <button onClick={() => setCount(count + 1)}>Click me</button>
+      <p>you have supported my website {count} timesʕ•̫͡•ོʔ•̫͡•ཻʕ•̫͡•ʔ•͓͡•ʔ </p>
     </div>
   )
 }
