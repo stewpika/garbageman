@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.40f81ffd.css",
+    "main.js": "./static/js/main.dd00a1ab.js",
+    "static/media/yongyu.png": "./static/media/yongyu.519d270f80dbe5d4dfa8.png",
+    "static/media/seaBackground.jpeg": "./static/media/seaBackground.8a5e2903d9d479429cae.jpeg",
+    "index.html": "./index.html",
+    "main.40f81ffd.css.map": "./static/css/main.40f81ffd.css.map",
+    "main.dd00a1ab.js.map": "./static/js/main.dd00a1ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40f81ffd.css",
+    "static/js/main.dd00a1ab.js"
+  ]
+}
