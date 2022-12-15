@@ -1,4 +1,5 @@
 import React from 'react'
+import ClickCount from '../clickCount/clickCount'
 import styles from './aboutMe.module.scss'
 
 
@@ -7,6 +8,7 @@ type AboutMeProps = {
 }
 
 const AboutMe: React.FC<AboutMeProps> = () => (
+  <div>
   <div className={styles.container}>
     <div className={styles.picture}>
 
@@ -16,7 +18,10 @@ const AboutMe: React.FC<AboutMeProps> = () => (
         <p>I am currently studying IT and living in Helsinki. </p>
         <p>You can find my project here.</p>
     </div>
+    </div>
+    <ClickCount />
   </div>
+  
 )
 
 export default AboutMe
