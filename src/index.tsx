@@ -9,8 +9,9 @@ import {
 import './index.module.scss';
 import Navbar from './components/navbar/navbar';
 
-import MyFirstComponent from './components/page2/myFirstComponent';
+
 import ContactInfo from './components/page3/contactInfo';
+import GallaryComponent from './components/page2/gallary';
 
 
 const root = ReactDOM.createRoot(
@@ -22,7 +23,7 @@ root.render(
   <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path='/project' element={<MyFirstComponent />} />
+      <Route path='/gallary' element={<GallaryComponent />} />
       <Route path='/contact' element={<ContactInfo />} />
     </Routes>
   </BrowserRouter>
